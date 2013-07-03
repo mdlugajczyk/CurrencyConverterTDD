@@ -1,3 +1,6 @@
 CurrencyConverterTDD.xcodeproj/project.xcworkspace/
 CurrencyConverterTDD.xcodeproj/xcworkspace
 CurrencyConverterTDD.xcodeproj/xcuserdata
+Pods/*
+CurrencyConverterTDD.xcworkspace/contents.xcworkspacedata
+Podfile.lock
