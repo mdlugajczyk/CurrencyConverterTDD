@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC678E71786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */; };
+		4AFEBEF71786CC21002DE331 /* CurrencyConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */; };
+		4AFEBEF81786CC21002DE331 /* CurrencyConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */; };
+		4AFEBEF91786CC21002DE331 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF61786CC21002DE331 /* CurrencyConverterViewController.xib */; };
+		4AFEBEFA1786CC21002DE331 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF61786CC21002DE331 /* CurrencyConverterViewController.xib */; };
 		5F41FDC31784332500DE6BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC21784332500DE6BC1 /* UIKit.framework */; };
 		5F41FDC51784332500DE6BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC41784332500DE6BC1 /* Foundation.framework */; };
 		5F41FDC71784332500DE6BC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC61784332500DE6BC1 /* CoreGraphics.framework */; };
@@ -20,7 +25,6 @@
 		5F41FDE21784332500DE6BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC21784332500DE6BC1 /* UIKit.framework */; };
 		5F41FDE31784332500DE6BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC41784332500DE6BC1 /* Foundation.framework */; };
 		5F41FDEB1784332500DE6BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F41FDE91784332500DE6BC1 /* InfoPlist.strings */; };
-		5F41FDEE1784332500DE6BC1 /* CurrencyConverterTDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F41FDED1784332500DE6BC1 /* CurrencyConverterTDDTests.m */; };
 		5F41FDF91784429900DE6BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F41FDCE1784332500DE6BC1 /* main.m */; };
 		5F41FDFA1784429900DE6BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F41FDD21784332500DE6BC1 /* AppDelegate.m */; };
 		5F41FDFC1784429900DE6BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F41FDC21784332500DE6BC1 /* UIKit.framework */; };
@@ -46,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A8276CE1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-CurrencyConverterTDDTests-OCHamcrest.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCHamcrest.a"; sourceTree = "<group>"; };
+		4A8276CF1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCMockito.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-CurrencyConverterTDDTests-OCMockito.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCMockito.a"; sourceTree = "<group>"; };
+		4A8276D71787035300FBB512 /* CurrencyConverterViewController_Outlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterViewController_Outlets.h; sourceTree = "<group>"; };
+		4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterViewControllerTests.m; sourceTree = "<group>"; };
+		4AFEBEF41786CC21002DE331 /* CurrencyConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterViewController.h; sourceTree = "<group>"; };
+		4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterViewController.m; sourceTree = "<group>"; };
+		4AFEBEF61786CC21002DE331 /* CurrencyConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyConverterViewController.xib; sourceTree = "<group>"; };
 		524CFE3C25E7468284426B2D /* libPods-CurrencyConverterTDDTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CurrencyConverterTDDTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F41FDBF1784332500DE6BC1 /* CurrencyConverterTDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterTDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F41FDC21784332500DE6BC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -64,8 +75,6 @@
 		5F41FDE01784332500DE6BC1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5F41FDE81784332500DE6BC1 /* CurrencyConverterTDDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverterTDDTests-Info.plist"; sourceTree = "<group>"; };
 		5F41FDEA1784332500DE6BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F41FDEC1784332500DE6BC1 /* CurrencyConverterTDDTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterTDDTests.h; sourceTree = "<group>"; };
-		5F41FDED1784332500DE6BC1 /* CurrencyConverterTDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterTDDTests.m; sourceTree = "<group>"; };
 		5F41FE071784429900DE6BC1 /* CurrencyConverterTDD copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CurrencyConverterTDD copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F41FE081784429900DE6BC1 /* CurrencyConverterTDD copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CurrencyConverterTDD copy-Info.plist"; path = "/Users/marcindlugajczyk/Documents/Work/CurrencyConverterTDD/CurrencyConverterTDD copy-Info.plist"; sourceTree = "<absolute>"; };
 		5F41FE091784433300DE6BC1 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
@@ -110,9 +119,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AFEBEF21786CBA8002DE331 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEBEF31786CBAE002DE331 /* Currency Converter */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4AFEBEF31786CBAE002DE331 /* Currency Converter */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEBEF41786CC21002DE331 /* CurrencyConverterViewController.h */,
+				4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */,
+				4AFEBEF61786CC21002DE331 /* CurrencyConverterViewController.xib */,
+				4A8276D71787035300FBB512 /* CurrencyConverterViewController_Outlets.h */,
+			);
+			name = "Currency Converter";
+			sourceTree = "<group>";
+		};
 		5F41FDB61784332500DE6BC1 = {
 			isa = PBXGroup;
 			children = (
+				4A8276CE1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCHamcrest.a */,
+				4A8276CF1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCMockito.a */,
 				5F41FE0B1784433E00DE6BC1 /* CFNetwork.framework */,
 				5F41FDC81784332500DE6BC1 /* CurrencyConverterTDD */,
 				5F41FDE61784332500DE6BC1 /* CurrencyConverterTDDTests */,
@@ -149,6 +179,7 @@
 		5F41FDC81784332500DE6BC1 /* CurrencyConverterTDD */ = {
 			isa = PBXGroup;
 			children = (
+				4AFEBEF21786CBA8002DE331 /* Controllers */,
 				5F41FDD11784332500DE6BC1 /* AppDelegate.h */,
 				5F41FDD21784332500DE6BC1 /* AppDelegate.m */,
 				5F41FDC91784332500DE6BC1 /* Supporting Files */,
@@ -173,8 +204,7 @@
 		5F41FDE61784332500DE6BC1 /* CurrencyConverterTDDTests */ = {
 			isa = PBXGroup;
 			children = (
-				5F41FDEC1784332500DE6BC1 /* CurrencyConverterTDDTests.h */,
-				5F41FDED1784332500DE6BC1 /* CurrencyConverterTDDTests.m */,
+				4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */,
 				5F41FDE71784332500DE6BC1 /* Supporting Files */,
 			);
 			path = CurrencyConverterTDDTests;
@@ -284,6 +314,7 @@
 				5F41FDD51784332500DE6BC1 /* Default.png in Resources */,
 				5F41FDD71784332500DE6BC1 /* Default@2x.png in Resources */,
 				5F41FDD91784332500DE6BC1 /* Default-568h@2x.png in Resources */,
+				4AFEBEF91786CC21002DE331 /* CurrencyConverterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +334,7 @@
 				5F41FE011784429900DE6BC1 /* Default.png in Resources */,
 				5F41FE021784429900DE6BC1 /* Default@2x.png in Resources */,
 				5F41FE031784429900DE6BC1 /* Default-568h@2x.png in Resources */,
+				4AFEBEFA1786CC21002DE331 /* CurrencyConverterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +391,7 @@
 			files = (
 				5F41FDCF1784332500DE6BC1 /* main.m in Sources */,
 				5F41FDD31784332500DE6BC1 /* AppDelegate.m in Sources */,
+				4AFEBEF71786CC21002DE331 /* CurrencyConverterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F41FDEE1784332500DE6BC1 /* CurrencyConverterTDDTests.m in Sources */,
+				4AC678E71786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +409,7 @@
 			files = (
 				5F41FDF91784429900DE6BC1 /* main.m in Sources */,
 				5F41FDFA1784429900DE6BC1 /* AppDelegate.m in Sources */,
+				4AFEBEF81786CC21002DE331 /* CurrencyConverterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
