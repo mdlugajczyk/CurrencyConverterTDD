@@ -29,7 +29,8 @@ require 'sim_launcher'
 # which includes calabash framework
 # this is usually the Calabash build configuration
 # of your production target.
-APP_BUNDLE_PATH = "~/Library/Developer/Xcode/DerivedData/CurrencyConverterTDD-hhswkekmwxkupjgwbxmnarnaqphb/Build/Products/Debug-iphonesimulator/CurrencyConverterTDD copy.app"
+APP_BUNDLE_PATH = "~/Library/Developer/Xcode/DerivedData/CurrencyConverterTDD-fuiwjqifmyufsealdelwbqjplbhb/Build/Products/Debug-iphonesimulator/CurrencyConverterTDD copy.app"
+
 #
 
 def reset_app_jail(sdk, app_path)
