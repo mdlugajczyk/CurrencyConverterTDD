@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A246DAA178A9886006AFC04 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A246DA9178A9886006AFC04 /* AppDelegateTests.m */; };
 		4AC678E71786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */; };
 		4AFEBEF71786CC21002DE331 /* CurrencyConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */; };
 		4AFEBEF81786CC21002DE331 /* CurrencyConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEBEF51786CC21002DE331 /* CurrencyConverterViewController.m */; };
@@ -50,8 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A8276CE1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-CurrencyConverterTDDTests-OCHamcrest.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCHamcrest.a"; sourceTree = "<group>"; };
-		4A8276CF1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCMockito.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-CurrencyConverterTDDTests-OCMockito.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCMockito.a"; sourceTree = "<group>"; };
+		4A246DA9178A9886006AFC04 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
+		4A8276CE1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCHamcrest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CurrencyConverterTDDTests-OCHamcrest.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCHamcrest.a"; sourceTree = "<group>"; };
+		4A8276CF1786F91B00FBB512 /* libPods-CurrencyConverterTDDTests-OCMockito.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CurrencyConverterTDDTests-OCMockito.a"; path = "Pods/build/Release-iphoneos/libPods-CurrencyConverterTDDTests-OCMockito.a"; sourceTree = "<group>"; };
 		4A8276D71787035300FBB512 /* CurrencyConverterViewController_Outlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterViewController_Outlets.h; sourceTree = "<group>"; };
 		4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterViewControllerTests.m; sourceTree = "<group>"; };
 		4AFEBEF41786CC21002DE331 /* CurrencyConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterViewController.h; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			children = (
 				4AC678E61786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m */,
 				5F41FDE71784332500DE6BC1 /* Supporting Files */,
+				4A246DA9178A9886006AFC04 /* AppDelegateTests.m */,
 			);
 			path = CurrencyConverterTDDTests;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC678E71786BF8100B28DA4 /* CurrencyConverterViewControllerTests.m in Sources */,
+				4A246DAA178A9886006AFC04 /* AppDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
